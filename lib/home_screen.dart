@@ -15,11 +15,13 @@ class HomeScreen extends StatelessWidget {
               const Text(
                 'أدخل رقم الهاتف لإرسال رمز التحقق',
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-               textAlign: TextAlign.center,
+                textAlign: TextAlign.center,
               ),
               const SizedBox(height: 30),
             ],
           ),
+
+          // apiKey: 'AIzaSyCJqFE8Kraeg8kdizejfv1rdzti2reqFvw',
         ),
       ),
     );

@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
       home: SplashScreen(),
       routes: {
         '/login': (context) => PhoneLoginScreen(),
-        '/gps': (context) => GpsScreen(label: ''),
+        '/gps': (context) => GpsScreen(label: '',),
         '/home': (context) => HomeScreen(),
       },
     );
